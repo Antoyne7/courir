@@ -1,0 +1,140 @@
+* {
+    /*transition: all .8s  ease-out;*/
+}
+
+html {
+    height: 100%;
+    width: 100vw;
+}
+
+img {
+    margin: 0 auto;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+Main {
+    margin: 0 auto;
+    width: calc(100vw - 60px);
+}
+
+article {
+    max-width: 375px;
+    overflow: hidden;
+    margin: 20px auto;
+    border-collapse: separate;
+}
+
+.accueil article header {
+    position: relative;
+}
+
+.table1 {
+    display: table;
+    margin: 10px auto;
+}
+
+.accueil article img {
+    display: table-cell;
+    width: 128px;
+    vertical-align: top;
+    padding-left: 20px;
+}
+
+.accueil article p {
+    display: table-cell;
+    width: 167px;
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+footer > .nom > p {
+    position: relative;
+    display: table-cell;
+    width: calc(100vw / 2);
+}
+
+.pagename + img {
+    display: block;
+    margin: 20px auto 0;
+    position: relative;
+}
+
+.film .trois img {
+    display: block;
+}
+
+.galerie-films {
+    height: 100%;
+}
+
+.galerie-films ul {
+    padding-left: 0;
+    height: 200px;
+    width: fit-content;
+    display: block;
+    list-style: none;
+    margin: 0 auto 50px;
+}
+
+.galerie-films ul li {
+    display: table-cell;
+    width: calc(315px / 2);
+}
+
+.galerie-films ul li:first-child figure {
+    transform: translateX(-10px);
+}
+
+.galerie-films ul li:last-child figure {
+    transform: translateX(10px);
+}
+
+.en-tete + section {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+body:not(.a-propos) > main > section:nth-child(3) {
+    margin-top: 10px;
+}
+
+.element .en-tete + section {
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.a-propos .en-tete + section {
+    margin-top: 10px;
+}
+
+section {
+    margin: 40px auto;
+}
+
+figure > img, figure > blockquote {
+    margin-bottom: 0;
+}
+
+figure {
+    margin: 30px auto;
+    position: relative;
+    max-width: fit-content;
+}
+
+figure.fullwidth{
+    margin: 30px -30px;
+}
+
+.galerie-films figure {
+    margin: 0;
+}
+
+.contact main p, .contact main form {
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.a-propos .en-tete + section::after {
+    content: none;
+}

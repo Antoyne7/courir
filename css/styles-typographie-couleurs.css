@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,600');
+
+:root {
+    font-size: 10px;
+    line-height: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #202020;
+}
+
+p, blockquote, ul {
+    font-size: 1.4rem;
+}
+
+.menu a {
+    font-size: 2.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul li a:not([href]) {
+    color: #202020;
+    background-color: #DDDDDD;
+}
+
+.menu {
+    font-size: 3rem;
+    line-height: 4rem;
+    pointer-events: none;
+}
+
+.menu ul li:nth-child(2), .menu ul li:nth-child(3) {
+    font-style: italic;
+}
+
+.bandeau > a > h1 {
+    padding-left: 30px;
+    font-size: 2rem;
+    background: url("images-interface/logox1.png") no-repeat center left;
+    background-size: auto 45px;
+}
+
+.bandeau > a > h1:first-letter {
+    color: #81B76F;
+}
+
+.sitename {
+    color: #F5F5F5;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.sitename h1 {
+    margin-left: 110px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.sitename h1:first-letter {
+    color: #81B76F;
+}
+
+.sitename h1::before {
+    content: url("images-interface/logox1.png");
+    position: absolute;
+    left: -105px;
+    top: -65px;
+}
+
+menu ul {
+    color: #202020;
+}
+
+h2, .a-propos h3.simple {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    margin: 20px auto 30px;
+    line-height: 30px;
+    border-bottom: #81B76F solid 2px;
+    font-size: 2.3rem;
+}
+
+h3:not(.simple) {
+    width: 90%;
+    text-align: center;
+    padding: 20px 0 20px;
+    margin: 0 auto 0;
+    line-height: 30px;
+    font-size: 2.3rem;
+}
+
+h3.grand {
+    width: 100%;
+}
+
+section h3:not(.simple) {
+    color: white;
+}
+
+h4 {
+    width: 90%;
+    border-top: #202020 solid 2px;
+    padding-top: 20px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 1.8rem;
+    margin: 20px auto;
+}
+
+a:visited, a {
+    color: #202020;
+}
+
+footer a, footer a:visited {
+    color: #F5F5F5;
+}
+
+footer p:last-child {
+    text-align: right;
+    width: 100%;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    display: block;
+    width: 132px;
+    margin: 20px auto 10px;
+}
+
+footer li {
+    display: inline-block;
+    margin-left: 20px;
+    width: 28px;
+    height: 40px;
+}
+
+footer li:first-child {
+    margin-left: 0;
+}
+
+footer li a {
+    display: block;
+    height: 100%;
+}
+
+a[href*="mailto:antoine.brld"] {
+    background: url("images-interface/email.png") no-repeat center;
+    background-size: contain;
+}
+
+a[href*="https://www.linkedin.com/in/antoine-braillard-0b1789174/"] {
+    background: url("images-interface/linkedin.png") no-repeat center;
+    background-size: contain;
+
+}
+
+a[href*="twitter"] {
+    background: url("images-interface/twitter.png") no-repeat center;
+    background-size: contain;
+
+}
+
+figcaption {
+    font-size: .9rem;
+    text-align: right;
+    font-style: italic;
+    padding: 0 30px;
+}
+
+/* Liste de livre */
+
+.auteur {
+    font-style: italic;
+}
+
+.liste-livres ul {
+    padding-left: 0;
+    list-style: none;
+}
+
+.liste-livres > ul > li > h5 {
+    width: fit-content;
+    margin: 30px auto 20px;
+    font-size: 1.7rem;
+}
+
+.liste-livres ul li ul li {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.liste-livres ul li ul li a {
+    line-height: 2rem;
+    position: relative;
+}
